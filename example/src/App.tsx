@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'ps-common-components'
+import { Button, ColoredHeadingOne } from 'ps-common-components'
 import 'ps-common-components/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <ColoredHeadingOne text="Colored Heading one is working" color={"red"} />
+      <Button label='hello'></Button>
+    </>
+  )
 }
 
 export default App
